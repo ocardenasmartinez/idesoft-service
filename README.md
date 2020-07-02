@@ -1,4 +1,4 @@
-## Pasos para correr idesoft:
+## Pasos para correr idesoft-service:
 
 git clone https://github.com/ocardenasmartinez/idesoft-service
 
