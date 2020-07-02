@@ -11,6 +11,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 class ControllerTest {
 
 	public static final String RECOLETA = "RECOLETA";
+
 	@Autowired
 	public Controller controller;
 
