@@ -1,6 +1,5 @@
 package cl.marino.idesoftservice.dao;
 
-import cl.marino.idesoftservice.controllers.Controller;
 import cl.marino.idesoftservice.entities.LocalDTO;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -8,7 +7,6 @@ import lombok.Getter;
 import lombok.Setter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;
 
