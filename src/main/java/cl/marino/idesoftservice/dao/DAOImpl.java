@@ -31,7 +31,7 @@ public class DAOImpl implements DAO {
         }
     }
 
-    //@Value("${locales-service-url}")
+    //TODO: no funciona @Value("${locales-service-url}")
     private String localesURL = "https://farmanet.minsal.cl/maps/index.php/ws/getLocalesRegion?id_region=7";
 
     public void cargaLocales() throws Exception {
