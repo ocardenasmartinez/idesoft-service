@@ -32,7 +32,7 @@ public class DAOImpl implements DAO {
     //TODO: no funciona @Value("${locales-service-url}")
     private String localesURL = "https://farmanet.minsal.cl/maps/index.php/ws/getLocalesRegion?id_region=7";
 
-    public void cargaLocales() throws Exception {
+    private void cargaLocales() throws Exception {
         LOGGER.info("Buscando locales...");
         ResponseEntity<String> responseEntity = new RestTemplate().getForEntity(localesURL, String.class);
         LOGGER.info("Locales recibidos: ");
